@@ -7,7 +7,6 @@ class PrimeraPagina extends StatefulWidget {
   @override
   State<PrimeraPagina> createState() => PrimeraState();
 }
- 
 class PrimeraState extends State<PrimeraPagina> {
   TextEditingController textEditingController = TextEditingController();
   String labelGrados = '';
@@ -174,7 +173,6 @@ class SegundaState extends State<SegundaPagina> {
   }
 }
 
-
 //Tercera
 class TerceraPagina extends StatefulWidget {
   const TerceraPagina({super.key});
@@ -261,7 +259,6 @@ class TerceraState extends State<TerceraPagina> {
     );
   }
 }
-
 
 //Cuarta
 class CuartaPagina extends StatefulWidget {
@@ -437,8 +434,6 @@ class QuintaState extends State<QuintaPagina> {
     );
   }
 }
-
-
 
 //Sexta
 class SextaPagina extends StatefulWidget {

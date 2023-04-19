@@ -33,10 +33,15 @@ class ConversionesTState extends State<ConversionesT> {
           body: TabBarView(
             children: [ 
               PrimeraPagina(),
+              
               SegundaPagina(),
+
               TerceraPagina(),
+
               CuartaPagina(),
+
               QuintaPagina(),
+
               SextaPagina(),
               
             ],
